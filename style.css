@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat,sans-serif';
+    background-color:rgb(247, 245, 242);
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #6f6f6f;
+
+}
+nav h1{
+    color: #717171;
+    font-family: 'Playfair display' sans-serif;
+    font-size: 30px;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 1000px;
+    width: 4500px;
+    background-color: blue;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: rgb(248, 244, 244);
+    margin-right: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    background-color: blue;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(images/auberge.jpg);
+    color: #fff;
+    padding: 90px;  
+}
+header h1{
+    font-family: 'Playfair display' sans-serif;
+    font-size: 50px;
+}
+header h4{
+     margin-top: 20px;
+     font-size: 20px;
+     text-align: center;
+     border-bottom: 1px solid #fff;
+   }
+.main{
+    padding-left: 300px;
+    padding-top: 4 0px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .content .card{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.main .content .card .left{
+    flex: 0 0 30%;
+    padding: 10px;
+    background-color:rgb(47, 37, 187);
+    color:rgb(7, 7, 7);
+}
+he
+.main .content .card .right{
+    flex: 0 0 70%;
+}
+.main .content .card .right img{
+    height: 300px;
+    width: 400px;
+    margin-top: 10px;
+    
+}
+footer{
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    width: 100%;
+    background: #f1f1f1;
+    color: #333;
+    padding-bottom: 40px;
+}
+.content-footer{
+    height: 50px;
+    margin bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+    padding-bottom: 90px;
+}
+.bloc {
+    margin: 0 30px;
+}
+.content-footer{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+}
+.bloc{
+    margin: 30px;
+}
+/* contact */
+.footer-contact h3,
+.footer-services h3,
+.footer-horaires h3,
+.footer-media h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.footer-contact p{
+    padding: 5px 0;
+}
+/* services */
+.Liste-services,
+.Liste-horaires,
+.Liste-medias{
+    list-style-type: none;
+}
+.Liste-services li{
+    padding: 3px;
+}
+.Liste-services a{
+    text-decoration: none;
+    color: #333;
+}
+.Liste-services a:hover{
+    color: rgb(3,3,3);
+}
+/* services */
+.Liste-services {
+    position: relative;
+    right: 40px;
+}
+/* medias */
+.Liste-medias{
+    position: relative;
+    right: 40px;
+}
+.Liste-medias a{
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+/* Media queries */
+@media screen and(max-width: 1300px) {
+    .content-footer{
+        width: 700px;
+        flex-wrap: wrap;
+    }
+    .bloc{
+        width: 40%;
+        margin: 0 0;
+    }
+    .bloc:nth-child(1),
+    .bloc:nth-child(2){
+        margin-bottom: 50px;
+    }
+    
+}
+img{
+    height: 80px;
+}
+
+
+
+
+
+
